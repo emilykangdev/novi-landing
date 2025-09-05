@@ -17,21 +17,21 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    /* Primary: Warm gruvbox brown for Novi brand */
-    --primary: 28 50% 45%;
+    /* Primary: Dark orange for Novi brand */
+    --primary: 25 70% 40%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 35 60% 55%;
+    --primary-glow: 30 75% 50%;
 
     /* Secondary: Soft warm complement */
-    --secondary: 35 25% 92%;
-    --secondary-foreground: 28 45% 35%;
+    --secondary: 30 30% 92%;
+    --secondary-foreground: 25 65% 30%;
 
     /* Muted tones with earthy warmth */
     --muted: 30 15% 94%;
     --muted-foreground: 30 10% 50%;
 
-    /* Accent: Warm terracotta for highlights */
-    --accent: 15 65% 55%;
+    /* Accent: Warm burnt orange for highlights */
+    --accent: 20 75% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 75% 55%;
@@ -39,17 +39,17 @@
 
     --border: 220 15% 90%;
     --input: 220 15% 90%;
-    --ring: 28 50% 45%;
+    --ring: 25 70% 40%;
 
     /* Custom design tokens for Novi */
-    --gradient-primary: linear-gradient(135deg, hsl(28 50% 45%), hsl(35 60% 55%));
-    --gradient-hero: linear-gradient(135deg, hsl(28 55% 50%), hsl(15 65% 55%));
+    --gradient-primary: linear-gradient(135deg, hsl(25 70% 40%), hsl(30 75% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(25 75% 45%), hsl(20 75% 50%));
     --gradient-subtle: linear-gradient(180deg, hsl(30 15% 97%), hsl(35 20% 95%));
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(35 15% 97%));
     
     /* Shadows with brand color */
-    --shadow-primary: 0 10px 40px -10px hsl(28 50% 45% / 0.3);
-    --shadow-glow: 0 0 60px hsl(35 60% 55% / 0.4);
+    --shadow-primary: 0 10px 40px -10px hsl(25 70% 40% / 0.3);
+    --shadow-glow: 0 0 60px hsl(30 75% 50% / 0.4);
     --shadow-card: 0 4px 20px -4px hsl(220 15% 15% / 0.1);
     --shadow-hover: 0 8px 30px -8px hsl(220 15% 15% / 0.15);
 
@@ -180,6 +180,6 @@
 
   /* Glow effect */
   .glow-primary {
-    filter: drop-shadow(0 0 20px hsl(35 60% 55% / 0.6));
+    filter: drop-shadow(0 0 20px hsl(30 75% 50% / 0.6));
   }
 }
