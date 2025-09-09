@@ -25,7 +25,7 @@ export const HeroSection = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <Badge className="mb-6 bg-white/10 text-white border-white/20 backdrop-blur-sm">
           <Sparkles className="w-4 h-4 mr-2" />
-          AI-Powered Information Companion
+          Your Voice-First AI Companion
         </Badge>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
@@ -41,7 +41,7 @@ export const HeroSection = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-            Join the Hackathon Team
+            Try it out
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
           <Button variant="glass" size="lg" className="text-lg px-8 py-6">

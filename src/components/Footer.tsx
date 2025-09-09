@@ -1,4 +1,5 @@
 import { Sparkles, Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -14,6 +15,15 @@ export const Footer = () => {
         <p className="text-muted-foreground mb-4">
           Making information consumption delightful, one summary at a time.
         </p>
+        
+        <div className="mb-4">
+          <Link 
+            to="/privacy-policy" 
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors underline"
+          >
+            Privacy Policy
+          </Link>
+        </div>
         
         <div className="flex items-center justify-center space-x-1 text-sm text-muted-foreground">
           <span>Built with</span>
